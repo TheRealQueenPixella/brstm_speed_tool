@@ -5,6 +5,7 @@ A tool for speeding up .brstm files. Inspired by Atlas' Final Lap Stream Maker, 
 - ffplay (for playing the loop points in the command line).
 # Usage
 This tool comes with a few commands:<br/>
+(if these don't work, try adding `.\` before `brstm_speed_tool.exe`)<br/>
 `brstm_speed_tool.exe in.brstm out.brstm 1.15`<br/>
 Where `in.brstm` is the name of the input file, and `out.brstm` is the name of the output file. `1.15` is the speed-up value, which, in the case of 1.15, speeds up the song by 15%;<br/>
 `brstm_speed_tool.exe --loop-preview file.brstm`<br/>
