@@ -1,0 +1,8 @@
+[package]
+name = "brstm_speed_tool"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+brstm = "0.4"
