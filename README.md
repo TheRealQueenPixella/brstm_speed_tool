@@ -21,6 +21,14 @@ Write that transition to WAV only.<br/>
 
 ### NOTE: you can drag and drop the file you want to speed up onto the brstm_speed_tool.exe file and it'll automatically create a 15% sped up version with no pitch change, akin to the first command listed. This feature was added in to make it easier to use without the need to use a command line<br/>
 
+# Building
+If you want to build the project from zero, you can start by downloading the source code (Code -> Download ZIP), extract it to a folder, then you need to make sure you have the following package installed:<br/>
+- [Rust](https://rust-lang.org/tools/install/)<br/>
+1) Extract the contents of the zip to a folder of your choice;<br/>
+2) Open a terminal in the newly extracted folder and paste the command `cd source`;<br/>
+3) Now paste the command `cargo build --release`<br/>
+The binary will be at `source/target/release/brstm_speed_tool.exe`    
+
 # End Note
 I created this program using [Cursor](cursor.com). Having never heard of vibecoding before, I wanted to give it a try and, while I am satisfied with the end result here, I disliked how boring the creation process was
 ### <ins> Should I ever make another program, it'll be 100% coded by me from scratch. <ins/>
